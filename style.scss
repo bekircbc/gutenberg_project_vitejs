@@ -1,0 +1,71 @@
+body {
+  padding: 20px;
+  background-color: #333;
+  color: #ccc;
+
+  .searchText {
+    font-size: 1.2rem;
+  }
+
+  .btnSearch {
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+
+  .spinner {
+    color: #aaa;
+    font-size: 5rem;
+    animation: spin infinite 2s linear;
+  }
+
+  #app {
+    margin: 10px;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .message {
+    margin: 10px 0 0 0;
+  }
+
+  .book {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    background-color: #aaa;
+    gap: 10px;
+    padding: 20px;
+    .cover {
+      min-width: 100px;
+      max-width: 100px;
+    }
+    .info {
+      margin: 0 0 0 10px;
+      .title {
+        font-size: 1.4rem;
+        font-weight: bold;
+      }
+    }
+    .author {
+      font-size: 1.2rem;
+      color: rgb(231, 231, 147);
+    }
+  }
+}
+
+ul {
+  a {
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

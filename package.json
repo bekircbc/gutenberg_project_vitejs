@@ -1,0 +1,17 @@
+{
+  "name": "vite-project_4.4.22",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.9.0"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "sass": "^1.49.11"
+  }
+}
